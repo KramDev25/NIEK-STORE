@@ -1,0 +1,1149 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'niek';
+    src: url('font/Futura\ Condensed\ Extra\ Bold.otf');
+  }
+
+.sectionOne{
+    background: url(images/abigail-keenan-YMVGhdhEgLY-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.landing{
+    margin-top: 8rem;
+    width: 100rem;
+    
+}
+
+.landing h1{
+    font-size: 8rem;
+    font-family: 'niek';
+    letter-spacing: -5px;
+    
+}
+
+.landing button{
+    font-size: 1.5rem;
+    height: 4rem;
+    width: 9em;
+    margin-top: 3rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+button:hover{
+    background-color: rgb(175, 175, 175);
+}
+
+.sectionTwo{
+    padding: 1.5rem 3rem;
+    
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo{
+    font-family: 'niek';
+    font-size: 4rem;
+    font-style: italic;
+    letter-spacing: -6px;
+    width: 8rem;
+    cursor: pointer;
+    
+}
+
+nav ul{
+ display: flex;
+ align-items: center;
+ text-align: center;
+ justify-content: space-between;
+}
+
+nav ul li{
+    display: grid;
+    align-items: center;
+    width: 7.5rem;
+    height: 3rem;
+    
+}
+
+nav li:hover{
+    border-bottom: 2px solid black;
+}
+
+nav ul li a{
+    color: black;
+    font-family: sans-serif;
+}
+
+
+.rightNav{
+ display: flex;
+ justify-content: space-between;
+ width: 18rem;
+}
+
+#searchbar{
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.103);
+    height:2.1rem;
+    padding: 1rem;
+    transition: .3s ease-in-out;
+}
+
+#searchbar:hover{
+    background-color: rgba(128, 128, 128, 0.24); 
+}
+
+#searchbar:focus{
+    outline: none;
+}
+
+#like{
+    cursor: pointer;
+}
+
+#bag{
+    cursor: pointer;
+}
+
+.sectionThree{
+    height: 100%;
+    padding: .5rem 3rem 1rem 3rem;
+}
+
+.categories{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 65vh;
+}
+
+#firstCategory{
+    background: url(images/anastase-maragos-HyvE5SiKMUs-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#secondCategory{
+    background: url(images/taylor-smith-Mw9TO8Wbz8A-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#thirdCategory{
+    background: url(images/brian-lundquist-6wVYnry7S0c-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+#fourthCategory{
+    background: url(images/danilo-capece-NoVnXXmDNi0-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.cat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cat-title{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: grid;
+    transition: .3s ease-in-out;
+}
+
+.cat-title:hover{
+    background-color: rgba(0, 0, 0, 0.404);
+    background-position: left;
+}
+
+.cat-title h1{
+    font-family: 'niek';
+    font-size: 4rem;
+    font-style: italic;
+    letter-spacing: -4px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.sectionFour{
+    text-align: center;
+    padding: 10rem 3rem 5rem 3rem;
+}
+.sectionFour video{
+    margin-bottom: 2rem
+}
+
+.sectionFour h1{
+    font-family: 'niek';
+    font-size: 5rem;
+    letter-spacing: -2px;
+
+}
+
+.sectionFour p{
+    width: 100%;
+    display: inline-block;
+    font-family: sans-serif;
+    margin-top: 2rem ;
+}
+
+.sectionFour button{
+    font-size: 1rem;
+    height: 3rem;
+    width: 9em;
+    margin-top: 2rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-family: sans-serif;
+    display: inline;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.sec-four-btn:hover{
+    background-color: rgb(175, 175, 175);
+}
+
+
+.sectionFive{
+    height: 100%;
+    padding: 10rem 3rem 3rem 3rem;
+}
+
+.featuredImg{
+    background: url(images/grailify-N6Rfv9z1HH0-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 100%;
+    height: 90vh;
+    text-align: bottom ;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    padding: 7rem;
+}
+
+.sectionFive h1{
+    color: black;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-bottom: 2rem;
+    font-size:  2rem;
+}
+
+.featuredImg h2{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-bottom: 2rem;
+    font-size:  3rem;
+}
+
+.featuredImg button{
+    font-size: 1rem;
+    height: 3rem;
+    width: 9em;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    font-family: sans-serif;
+    display: inline;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+
+
+#featuredBtn:hover{
+    background-color: rgba(255, 255, 255, 0.418);
+    color: white;
+}
+
+.sectionSix{
+    padding: 10rem 3rem 5rem 3rem;
+}
+
+.sectionSix h1{
+    color: black;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-bottom: 2rem;
+    font-size:  2rem;
+}
+
+.trending{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    
+    
+}
+
+.left-trend{
+    background: url(images/julia-rekamie-Z72YujnOrlY-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    color: rgb(255, 255, 255);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.left-trend h1{
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: white;
+    
+}
+
+.left-trend h4{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    padding-bottom: .5rem;
+}
+
+.left-trend button{
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    font-family: sans-serif;
+    display: inline;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: .3s ease-in-out;
+}
+.leftTrend-btn:hover{
+    background-color: rgba(175, 175, 175, 0.815);
+}
+
+.right-trend{
+    background: url(images/samuel-lopes-FUR3LNiI2jc-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 3rem;
+}
+
+.right-trend h1{
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: white;
+    
+}
+
+.right-trend h4{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    padding-bottom: .5rem;
+}
+
+.right-trend button{
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    font-family: sans-serif;
+    display: inline;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+
+}
+.right-Trend-btn:hover{
+    background-color: rgba(175, 175, 175, 0.815);
+}
+
+.right-Trend-btn:hover{
+    background-color: rgba(175, 175, 175, 0.815);
+}
+
+.sectionSeven{
+    padding: 10rem 3rem 5rem 3rem;
+}
+
+.sectionSeven h1{
+    color: black;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size:  2rem;
+}
+
+.secSeven-topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.topleftbar{
+    display: flex;
+    align-items: center;
+    gap: 13px
+}
+
+.topleftbar p{
+    font-family: sans-serif;
+}
+
+.lessthan{
+    border: none;
+    background-color: rgba(128, 128, 128, 0.185);
+    border-radius: 100%;
+    padding: 10px;
+    transition: .3s ease-in-out;
+}
+
+.lessthan:hover{
+    background-color: rgba(175, 175, 175, 0.815);
+}
+
+.greaterthan{
+    border: none;
+    background-color: rgba(128, 128, 128, 0.185);
+    border-radius: 100%;
+    padding: 10px;
+    transition: .3s ease-in-out;
+}
+
+.greaterthan:hover{
+    background-color: rgba(175, 175, 175, 0.815);
+}
+
+
+.athleteDept{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.first img, .second img, .third img{
+    height: 600px;
+    width: 100%;
+}
+
+.buttom{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-family: sans-serif;
+    padding: .5rem .5rem;
+}
+.name p{
+    margin-bottom: 5px
+}
+
+.sec{
+    color:rgb(128, 128, 128);
+}
+
+.sectionEight{
+    padding: 2rem 3rem 2rem 3rem;
+}
+
+.sectionEight img{
+    width: 100%;
+    height: 100vh;
+}
+
+.sectionEight h1{
+    color: black;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size:  2rem;
+    margin-bottom: 2rem;
+}
+
+.secEight-cont{
+    text-align: center;
+}
+
+.secEight-cont p{
+    font-family: sans-serif;
+    margin-top:2rem;
+}
+
+.secEight-cont h1{
+    font-family: 'niek';
+    font-size: 5rem;
+    letter-spacing: -2px;
+
+}
+
+.sectionEight button{
+    font-size: 1rem;
+    height: 3rem;
+    width: 9em;
+    margin-top: 2rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-family: sans-serif;
+    display: inline;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.sectionEight button:hover{
+    background-color: rgb(175, 175, 175);
+}
+
+.sectionNine{
+    padding: 2rem 3rem 1rem 3rem;
+}
+
+
+.secNine-mainTitle{
+    color: black;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size:  2rem;
+    margin-bottom: 2rem;
+}
+
+.gearupInfo{
+    text-align: center;
+}
+
+.sectionNine video{
+    margin-bottom: 2rem
+}
+
+.secNine-title{
+    font-family: 'niek';
+    font-size: 5rem;
+    letter-spacing: -2px;
+}
+
+.sectionNine p{
+    width: 100%;
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+.sectionNine button{
+    font-size: 1rem;
+    height: 3rem;
+    width: 9em;
+    margin-top: 2rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-family: sans-serif;
+    display: inline;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.sectionNine button:hover{
+    background-color: rgb(175, 175, 175);
+}
+
+.sectionTen{
+    padding: 2rem 3rem 1rem 3rem;
+}
+
+.secTen-mainTitle{
+    color: black;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size:  2rem;
+    margin-bottom: 2rem;
+}
+
+.secTen-videoCont{
+    position: relative;
+    
+}
+
+.secTen-info-cont{
+    position: absolute;
+    bottom:0;
+    margin:3rem;
+}
+
+.secTen-info-cont p{
+    font-family: sans-serif;
+    margin-bottom:.5rem;
+    color: white;
+}
+
+.secTen-info-cont h1{
+    font-family: 'niek';
+    font-size: 5rem;
+    letter-spacing: -2px;
+    width: 30rem;
+    line-height: 4rem;
+    height: 14rem;
+    color: white;
+}
+
+.sectionTen button{
+    font-size: 1rem;
+    height: 3rem;
+    width: 9em;
+    margin-top: 2rem;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    font-family: sans-serif;
+    display: inline;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.sectionTen button:hover{
+    background-color: rgba(175, 175, 175, 0.815);
+}
+
+.secten-second{
+    width: 25rem;
+}
+
+.sectionEleven{
+    padding: 10rem 3rem 5rem 3rem;
+}
+
+.sectionEleven h1{
+    color: black;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size:  2rem;
+    margin-bottom: 2rem;
+}
+
+#mens{
+    background: url(images/rock-staar-MNcmdoS6js0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#womans{
+    background: url(images/luis-santoyo-9eufHgk5UCo-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#kids{
+    background: url(images/taylor-smith-Mw9TO8Wbz8A-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.essentials-cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 6rem;
+}
+
+#mens, #womans, #kids{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+}
+
+.sectionEleven button{
+    font-size: 1rem;
+    padding: .8rem 2rem;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin: 4rem;
+    transition: .3s ease-in-out;
+}
+
+.sectionEleven button:hover{
+    background-color: rgba(175, 175, 175, 0.815);
+}
+
+.kinds{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    margin: 0 10rem;
+    padding: 0 20px;
+}
+
+
+.kinds h4{
+    font-family: sans-serif;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+.kinds a{
+    color:black
+}
+
+.kinds ul li{
+    margin-bottom: 1rem;
+}
+
+.kinds ul li a{
+    color: gray;
+    font-family: sans-serif;
+    transition: .3s ease-in-out;
+}
+
+.kinds a:hover{
+    color: rgb(0, 0, 0);
+}
+
+
+footer{
+    padding: 3rem 15rem 1rem 15rem;
+    background-color: black;
+}
+
+.top-footer-cont{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: space-between;
+    margin-bottom: 3rem;
+}
+
+.left-footer-cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+footer h4{
+    font-weight: 400;
+    color: white;
+}
+footer ul li a{
+    font-family: sans-serif;
+    color: gray;
+    font-size: .75rem;
+    
+}
+
+.first-list ul li a h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: none;
+    color: white;
+    font-size: .8rem;
+    margin-bottom: 2rem;
+    letter-spacing: .5px;
+    font-weight: bold;
+}
+
+
+.second-list ul li{
+   margin-bottom: 1rem;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+.third-list ul li{
+    margin-bottom: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+ }
+
+
+ .footer-right-cont{
+    text-align: end;
+ }
+
+ .footer-right-cont ul li{
+    display: inline-block;
+    background-color: gray;
+    border-radius: 100%;
+    padding: .3rem;
+    margin-right: 1rem
+ }
+
+
+ .bottom-footer-cont{
+    display: flex;
+    justify-content: space-between;
+ }
+ .bottom-left{
+    display: inline-block;
+ }
+
+ .bottom-left a{
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Condensed', sans-serif;
+    display: inline-block;
+    font-size: .8rem;
+    font-size: 500;
+    margin-right: 20px;
+ }
+
+ .bottom-left img{
+    margin-right: 15px;
+ }
+
+ .bottom-left p{
+    color: gray;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: inline-block;
+    font-size: .8rem;
+ }
+
+ .bottom-right ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px
+ }
+
+ footer ul li a:hover{
+    color: white;
+ }
+
+ .footer-right-cont ul li:hover{
+    background-color: white;
+ }
+ 
+
+ @media all and (max-width: 1550px){
+    .categories{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+        height: 100vh;
+    }
+
+    #secondCategory{
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+
+    }
+    
+    #thirdCategory{
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    #fourthCategory{
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+ }
+
+ @media all and (max-width:1220px){
+    nav ul li{
+        display: none;
+    }
+
+
+    .first img, .second img, .third img{
+        height: 400px;
+        width: 400px;
+      
+    }
+ }
+
+ @media all and (max-width:1025px){
+    .landing h1{
+        font-size: 8rem;
+    }
+
+    .sectionFour p{
+        width: 80%;
+    }
+    .kinds{
+        margin: 0;
+        padding: 0;
+    }
+
+    footer{
+        padding: 3rem;
+    }
+
+    .sectionOne,
+    .sectionTwo, 
+    .sectionThree, 
+    .sectionFour, 
+    .sectionFive, 
+    .sectionSix, 
+    .sectionSeven, 
+    .sectionEight, 
+    .sectionNine, 
+    .sectionTen, 
+    .sectionEleven{
+        padding: 3rem 1rem;
+    }
+
+    #mens,
+    #womans,
+    #kids{
+        height: 500px;
+    }
+
+    .secTen-info-cont{
+        width: 15rem;
+    }
+
+    .secTen-info-cont h1{
+        font-size: 2rem;
+        width: 100% ;
+        height: auto;
+        line-height: 2.5rem;
+        
+    }
+
+    .secTen-info-cont p{
+        font-family: sans-serif;
+        color: white;
+        width: auto;
+    }
+
+ }
+
+ @media all and (max-width:750px){
+    .landing h1{
+        width: 100%;
+        font-size: 5rem;
+    }
+
+    .landing button{
+        
+        font-size: 1rem;
+        margin: 2rem;
+        height: 3rem;
+    }
+
+    .trending{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .trending img{
+        height: auto;
+    }
+
+    .athleteDept{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5rem
+
+    }
+
+    .athleteDept img{
+        width: 100%;
+        height: auto;
+
+    }
+
+    .sectionEleven button{
+        padding: .5rem 1.5rem;
+    }
+
+    .kinds{
+        display: none;
+    }
+
+    .left-footer-cont{
+        display: none;
+    }
+
+    .bottom-footer-cont{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        font-size: 1rem;
+    }
+
+    .top-footer-cont{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    
+    .essentials-cont{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .essentials-cont img{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .sectionEight img{
+        height: auto;
+
+    }
+
+    #mens,
+    #womans,
+    #kids{
+       background-position:top ;
+    
+    }
+
+    .categories{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .cat{
+        width: auto;
+        height: 100%;
+    }
+
+    
+ }
+
+ @media all and (max-width: 420px){
+    .landing h1{
+        font-size: 3rem;
+    }
+
+    nav .logo{
+        font-size: 2rem;
+        letter-spacing: -1px;
+    }
+
+    #searchbar{
+        display: none;
+    }
+
+    .rightNav{
+        display: flex;
+        justify-content: end;
+        gap: 1rem;
+    }
+
+    .sectionFour video{
+        margin: 0;
+    }
+
+    .sectionFour p{
+        margin: 1rem;
+    }
+
+    .sectionFour h1{
+        font-size: 3rem;
+    }
+
+    .featuredImg{
+        padding: 3rem;
+        display: flex;
+        justify-content: end;
+    }
+
+
+    .sectionEight h1{
+        font-size: 3rem;
+    }
+
+  
+    .sectionNine h1{
+        font-size: 3rem;
+    }
+
+    .secTen-info-cont{
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 20px;
+        margin: 0 1rem;
+    }
+
+    .secTen-info-cont h1{
+        font-size: 1.5rem;
+        width: 100% ;
+        height: auto;
+      
+        
+    }
+
+    .secTen-info-cont p{
+        font-family: sans-serif;
+        color: white;
+        width: auto;
+        font-size: .9rem
+    }
+    .secTen-info-cont button{
+        height: 2rem;
+        width: 9rem;
+        margin: 0;
+        
+    }
+
+    footer{
+        padding: 1rem
+    }
+    .bottom-right ul li a{
+        font-size: .5rem;
+    }
+ }
+ section, div, ul, li, a, button, h1, h2, h3, h4, p, footer{
+    -webkit-tap-highlight-color: transparent;
+}
+
